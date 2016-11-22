@@ -51,7 +51,9 @@ public class AppTest
                 + " <body>"
                 + " <h1>foo</h1>"
                 + " </body>" 
+                + " <script>" 
                 + " -->"
+                + " </script>" 
                 + "</html>";
         
         final Source source = new Source(content);
